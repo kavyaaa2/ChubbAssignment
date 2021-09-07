@@ -111,8 +111,6 @@ Insert into tasks values(4,2);
 
 4. select user_id,count(company_id) from company_drives group by user_id;
 
-5. 
-
 6. select mentor_name from mentors;
 
 7. select mentor_id,count(user_id) from users group by mentor_id;
