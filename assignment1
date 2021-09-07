@@ -111,6 +111,8 @@ Insert into tasks values(4,2);
 
 4. select user_id,count(company_id) from company_drives group by user_id;
 
+5. select user_id,count(students_activated_courses.course_id) from students_activated_courses inner join courses on students_activated_courses.course_id group by user_id having user_id=1;
+
 6. select mentor_name from mentors;
 
 7. select mentor_id,count(user_id) from users group by mentor_id;
